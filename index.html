@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+  <title>Form</title>
+</head>
+  <body>
+
+    <div class="container">
+      <div class="header">
+        <button id='themeToggle'>Переключить тему</button>
+      </div>
+    </div>
+
+
+    
+    <form id="form">
+        <label>
+          Имя:
+          <input type="text" id="lastName">
+        </label>
+      
+        <label>  
+          Фамилия: 
+          <input type="text" id="firstName">
+        </label>
+      
+        <label>
+          Адрес почты:
+          <input type="email" id="email"> 
+        </label>
+      
+        <label>
+          Номер телефона:
+          <input type="tel" id="phone">
+        </label>
+      
+        <button type="button" onclick="submitForm()">Ввести данные</button>
+        <div id="output"></div>
+
+      </form>
+
+
+
+  </body>
+</html>
+
+
+
+  
